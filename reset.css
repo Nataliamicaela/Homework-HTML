@@ -1,0 +1,45 @@
+/* Reset CSS */
+
+/* Eliminar márgenes y rellenos predeterminados */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl, dd, dt {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer el tamaño de fuente base a 16px */
+html {
+  font-size: 16px;
+}
+
+/* Establecer la fuente predeterminada a sans-serif */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Establecer la altura de línea a 1.5 */
+body,
+input,
+textarea,
+select,
+button {
+  line-height: 1.5;
+}
+
+/* Eliminar decoración de lista predeterminada */
+ul {
+  list-style: none;
+}
+
+/* Eliminar decoración de enlace predeterminada */
+a {
+  text-decoration: none;
+  color: inherit;
+}

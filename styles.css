@@ -1,0 +1,103 @@
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: aliceblue;
+}
+
+#nav {
+  width: 30vw;
+  margin:auto;
+  padding: 2em 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+h1 {
+  padding: 3em 0em 2em 0em;
+  text-align: center;
+}
+
+#imagen {
+  width: 65vw;
+  margin: auto;
+  padding: 2em 3em 2em 1em;
+}
+
+.parrafo {
+  width: 61em;
+  padding: 0px 2em 0em 12em;
+
+} 
+
+article div {
+  width: 90vw;
+  margin: auto;
+  padding: 1em 0px 2em 3em;
+}
+
+.listas {
+  width: 80vw;
+  margin: auto;
+  padding: 1em 0px 1em 0px; 
+}
+
+.imagen {
+  margin: 4em 4em 3em 15em;
+}
+
+ol li {
+  padding: 0em 0px 1em 0px;
+}
+
+h2 {
+  width: 45vw;
+  margin-left: 14em;
+  padding: 1em 0px 1em 1em;
+}
+
+.form {
+  width: 25vw;
+  margin: auto;
+  padding: 2em 0px 2em 0px;
+}
+
+li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 10vw;
+}
+
+footer p {
+  text-align-last: center;
+}
+
+footer div {
+  text-align-last: center;
+  margin: 5px 0px 30px 0px;
+}
+
+.text-align {
+  padding:  2em 2em 1em 0em;
+}
+
+.datos {
+  margin: 0px 0px 3em 25em;
+}
+
+#formulario {
+  margin: 0px 0px 0px 34em;
+}
+
+button {
+  margin: 2em 0em 2em 4em;
+}
+
+form div {
+  height: 28px;
+}
+
+#titulo-1 {
+  padding: 2em 0em 2em 0em;
+}

@@ -1,61 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Formulario</title>
 </head>
 <body>
-    
     <header>
-
-        <h1>Formulario de contacto</h1>
-    
+        <ul id="nav">
+             <li><a href="index.html">INICIO</a></li>
+             <li><a href="nosotros.html">NOSOTROS</a></li>
+             <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
     </header>
-
     <main>
-
         <div>
-
-            <h2>Comunicate con nosotros</h2>
-
-               <p>Para poder brindarte más información, vamos a pedirte algunos datos</p>
-
+            <h1 class="text-align">Comunicate con nosotros</h1>
+               <p class="datos">Para poder brindarte más información, vamos a pedirte algunos datos</p>
         </div>
-
-        <form>
-
-            <div>
-
-                <input type="Nombre" name="Nombre" placeholder="Nombre">
-
-            </div>
-
-            <div>
-
-                <input type="Apellido" name="Apellido" placeholder="Apellido">
-
-            </div>
-
-            <div>
-
-                <input type="number" name="Contacto" placeholder="Telefono">
-
-            </div>
-
-            <div>
-
-                <input type="text" name="Mensaje" placeholder="Mensaje">
-
-
-            </div>
-
+    <form class="datos" id="formulario">
+        <div>
+            <input type="Nombre" name="Nombre" placeholder="Nombre">
+        </div>
+        <div>
+            <input type="Apellido" name="Apellido" placeholder="Apellido">
+        </div>
+        <div>
+            <input type="number" name="Contacto" placeholder="Telefono">
+        </div>
+        <div>
+            <input type="text" name="Mensaje" placeholder="Mensaje">
+        </div>
             <button>ENVIAR</button>
-
-
-        </form>
-       
-        
+    </form>
     </main>
 </body>
 </html>
